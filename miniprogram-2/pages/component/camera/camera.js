@@ -1,4 +1,4 @@
-// page/extended/index.js
+// pages/component/camera/camera.js
 Page({
 
   /**
