@@ -1,0 +1,7 @@
+/* pages/component/pages/webgl/index.wxss */
+.canvas {
+  width: 305px;
+  height: 305px;
+  background-color: skyblue;
+  margin-top: 30px;
+}

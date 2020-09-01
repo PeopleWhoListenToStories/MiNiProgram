@@ -1,4 +1,4 @@
-// pages/component/pages/webgl/webgl.js
+// com/head.wxml.js
 Page({
 
   /**

@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="swiper">
+    <swiper indicator-dots="{{indicatorDots}}">
+      <swiper-item></swiper-item>
+    </swiper>
+  </view>
+</view>
