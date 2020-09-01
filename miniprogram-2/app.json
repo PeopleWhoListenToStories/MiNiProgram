@@ -1,7 +1,10 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/component/index",
+    "pages/api/index",
+    "pages/extended/index",
+    "pages/cloud/index",
+    "pages/component/pages/canvas/canvas"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -10,5 +13,33 @@
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar":{
+    "color": "black",
+    "selectedColor": "green",
+    "borderStyle": "white",
+    "backgroundColor": "#ccc",
+    "list":[
+      {
+        "pagePath":"pages/component/index",
+        "backgroundColor":"#fff",
+        "text": "组件"
+      },
+      {
+        "pagePath":"pages/api/index",
+        "backgroundColor":"#fff",
+        "text": "接口"
+      },
+      {
+        "pagePath":"pages/extended/index",
+        "backgroundColor":"#fff",
+        "text": "扩展功能"
+      },
+      {
+        "pagePath":"pages/cloud/index",
+        "backgroundColor":"#fff",
+        "text": "云开发"
+      }
+    ]
+  }
 }
