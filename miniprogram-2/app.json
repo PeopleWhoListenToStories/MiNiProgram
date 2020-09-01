@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/component/index",
+    "pages/component/pages/webgl/webgl",
     "pages/api/index",
     "pages/extended/index",
     "pages/cloud/index"
@@ -16,8 +17,9 @@
   "tabBar":{
     "color": "black",
     "selectedColor": "green",
-    "borderStyle": "white",
-    "backgroundColor": "#ccc",
+    "borderStyle": "black",
+    "backgroundColor": "white",
+    "position":"bottom",
     "list":[
       {
         "pagePath":"pages/component/index",

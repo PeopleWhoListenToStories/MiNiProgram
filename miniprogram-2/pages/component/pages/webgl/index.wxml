@@ -1,0 +1,16 @@
+<!-- pages/component/webgl/index.wxml -->
+<import src="../../../com/head.wxml" />
+<view>
+  <template is="head" data="{{title:'webgl'}}">
+    <block>
+      <view class="page-section">
+        <view class="page-body-wrapper">
+          <canvas class="canvas" type="webgla" id="canvasWebGL"></canvas>
+        </view>
+      </view>
+    </block>
+    <view wx:else style="margin:15px; text-align:center">
+      微信版本过低  暂时不支持本功能
+    </view>
+  </template>
+</view>
