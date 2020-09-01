@@ -1,1 +1,5 @@
 /* pages/component/index.wxss */
+.weui-agree__link {
+  display: inline;
+  color: red;
+}
