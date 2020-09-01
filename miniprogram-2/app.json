@@ -1,47 +1,44 @@
 {
-  "pages": [
+  "pages":[
     "pages/component/index",
-    "pages/component/pages/webgl/index",
-    "pages/component/pages/swiper/index",
+    "pages/component/pages/webgl/webgl",
     "pages/api/index",
     "pages/extended/index",
-    "pages/cloud/index",
-    "com/foot.wxml",
-    "com/head.wxml"
+    "pages/cloud/index"
   ],
-  "window": {
-    "backgroundTextStyle": "light",
+  "window":{
+    "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle":"black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
-  "tabBar": {
+  "tabBar":{
     "color": "black",
     "selectedColor": "green",
     "borderStyle": "black",
     "backgroundColor": "white",
-    "position": "bottom",
-    "list": [
+    "position":"bottom",
+    "list":[
       {
-        "pagePath": "pages/component/index",
-        "backgroundColor": "#fff",
+        "pagePath":"pages/component/index",
+        "backgroundColor":"#fff",
         "text": "组件"
       },
       {
-        "pagePath": "pages/api/index",
-        "backgroundColor": "#fff",
+        "pagePath":"pages/api/index",
+        "backgroundColor":"#fff",
         "text": "接口"
       },
       {
-        "pagePath": "pages/extended/index",
-        "backgroundColor": "#fff",
+        "pagePath":"pages/extended/index",
+        "backgroundColor":"#fff",
         "text": "扩展功能"
       },
       {
-        "pagePath": "pages/cloud/index",
-        "backgroundColor": "#fff",
+        "pagePath":"pages/cloud/index",
+        "backgroundColor":"#fff",
         "text": "云开发"
       }
     ]
