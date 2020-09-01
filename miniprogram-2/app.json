@@ -1,7 +1,10 @@
 {
   "pages":[
     "pages/component/index",
-    "pages/component/pages/webgl/index",
+    "pages/component/pages/webgl/webgl",
+    "pages/component/pages/swiper/swiper",
+    "pages/component/pages/button/button",
+    "pages/component/pages/canvas-2d/canvas-2d",
     "pages/api/index",
     "pages/extended/index",
     "pages/cloud/index"

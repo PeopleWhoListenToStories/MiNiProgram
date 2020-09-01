@@ -1,0 +1,10 @@
+<!--pages/component/pages/canvas-2d/canvas-2d.wxml-->
+<!-- <text>pages/component/pages/canvas-2d/canvas-2d.wxml</text> -->
+<view>
+  <block wx:if="{{canIUse}}">
+            <canvas type="2d" id="canvas2D" class="canvas"></canvas>    
+    </block>
+    <view wx:else>
+      微信版本过低，暂不支持本功能
+    </view>
+  </view>
