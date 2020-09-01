@@ -1,7 +1,7 @@
 {
   "pages":[
     "pages/component/index",
-    "pages/component/pages/webgl/webgl",
+    "pages/component/pages/webgl/index",
     "pages/api/index",
     "pages/extended/index",
     "pages/cloud/index"
