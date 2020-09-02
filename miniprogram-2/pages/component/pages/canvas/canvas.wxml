@@ -3,7 +3,6 @@
 
 <view class="container">
   <template is="head" data="{{title: 'canvas'}}"/>
-
   <view class="page-body">
     <block wx:if="{{canIUse}}">
       <view class="page-section">
