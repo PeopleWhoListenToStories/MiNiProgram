@@ -1,12 +1,11 @@
 {
   "pages": [
     "pages/component/index",
-    "pages/component/pages/webgl/webgl",
     "pages/api/index",
     "pages/extended/index",
     "pages/cloud/index",
     "pages/component/pages/canvas/canvas",
-    "pages/component/camera/camera"
+    "pages/component/pages/camera/camera"
   ],
   "window": {
     "backgroundTextStyle": "light",
