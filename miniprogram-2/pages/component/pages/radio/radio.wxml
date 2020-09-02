@@ -1,0 +1,25 @@
+<view>
+  <template data="{{title:'radio'}}" />
+  <view class="page-body">
+    <view>默认样式</view>
+    <label>
+      <radio value="r1" checked="true" />选中
+    </label>
+    <label>
+      <radio value="r2" />未选中</label>
+  </view>
+
+  <view>
+    <view>推荐展示样式</view>
+    <view>
+      <radio-group bindchange="radioChange">
+        <label wx:for="{{items}}" wx:key="{{item.value}}">
+          <view>
+            <radio value="{{item.value}}" checked="true" />
+          </view>
+          <view> {{item.name}} </view>
+        </label>
+      </radio-group>
+    </view>
+  </view>
+</view>

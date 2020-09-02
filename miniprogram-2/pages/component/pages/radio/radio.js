@@ -1,11 +1,43 @@
 // pages/component/radio/radio.js
 Page({
 
+  onShareAppMessage() {
+    return {
+      title: 'radio',
+      path: 'pages/components/pages/radio/radio'
+    }
+  },
+
   /**
    * 页面的初始数据
    */
   data: {
-
+    items: [{
+        vaues: 'USA',
+        name: '美国'
+      },
+      {
+        vaues: 'CHN',
+        name: '中国',
+        checked: 'true'
+      },
+      {
+        vaues: 'BRA',
+        name: '巴西'
+      },
+      {
+        vaues: 'JPN',
+        name: '日本'
+      },
+      {
+        vaues: 'ENG',
+        name: '英国'
+      },
+      {
+        vaues: 'FRA',
+        name: '法国'
+      }
+    ]
   },
 
   /**
@@ -62,5 +94,15 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  radioChange(e) {
+    console.log('radio ', e, this.data.items)
+    const list = this.data.items;
+    for (let i = 0, len = list.length; i < len; ++i) {
+      list[i].checked = list[i].value === e.detail.value;
+    }
+    this.setData({
+      items:list
+    })
+  },
 })
