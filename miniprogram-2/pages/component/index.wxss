@@ -1,6 +1,5 @@
-/* page/component/index.wxss */
-
+/* pages/component/index.wxss */
 .weui-agree__link {
   display: inline;
-  /* color: var(--weui-LINK); */
+  color: red;
 }
